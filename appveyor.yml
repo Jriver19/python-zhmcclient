@@ -4,9 +4,9 @@
 environment:
   matrix:
 
-    - TOX_ENV: win64_py27_32
-      UNIX_PATH: none
-      PYTHON_CMD: python
+#    - TOX_ENV: win64_py27_32
+#      UNIX_PATH: none
+#      PYTHON_CMD: python
 
 #    - TOX_ENV: win64_py27_64
 #      UNIX_PATH: none
@@ -40,9 +40,9 @@ environment:
 #      UNIX_PATH: none
 #      PYTHON_CMD: python
 
-#    - TOX_ENV: win64_py37_64
-#      UNIX_PATH: none
-#      PYTHON_CMD: python
+    - TOX_ENV: win64_py37_64
+      UNIX_PATH: none
+      PYTHON_CMD: python
 
 #    - TOX_ENV: win64_py38_32
 #      UNIX_PATH: none
@@ -64,15 +64,15 @@ environment:
 #      PYTHON_CMD: python2.7
 #      PIP_CMD: pip
 
-    - TOX_ENV: cygwin64_py36
-      UNIX_PATH: C:\cygwin64\bin
-      PYTHON_CMD: python3.6m
-      PIP_CMD: pip
+#    - TOX_ENV: cygwin64_py36
+#      UNIX_PATH: C:\cygwin64\bin
+#      PYTHON_CMD: python3.6m
+#      PIP_CMD: pip
 
-    - TOX_ENV: msys64_py27
-      UNIX_PATH: C:\msys64\usr\bin
-      PYTHON_CMD: python2.7
-      PIP_CMD: pip
+#    - TOX_ENV: msys64_py27
+#      UNIX_PATH: C:\msys64\usr\bin
+#      PYTHON_CMD: python2.7
+#      PIP_CMD: pip
 
 configuration:
 # These values will become the values of the PACKAGE_LEVEL env.var.

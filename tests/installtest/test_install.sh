@@ -4,7 +4,7 @@
 #
 # This script can be run from any directory.
 
-DEBUG="false"
+DEBUG="true"
 VERBOSE="true"
 
 PACKAGE_NAME=zhmcclient
